@@ -26,9 +26,11 @@
 .button {
     background: none repeat scroll 0 0 #45ac9d;
 }
-
+/* homepage blog post */
 .blog-post {
-	width: 50%;
+	width: 44.75%;
+	padding-right: 50px;
+	float: left;
 }
 
 .blog-post h4 {
@@ -45,9 +47,7 @@
 }
 
 .blog-post .read-more-link {
-	font-size: 24px;
-	font-family: 'Montserrat';
-	font-weight: bold;
+	font: 700 15px 'Montserrat';
 	color: #45ac9d;
 	text-transform: uppercase;
 }
