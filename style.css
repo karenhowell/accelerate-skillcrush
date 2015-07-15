@@ -1,0 +1,87 @@
+/*
+ Theme Name:   Accelerate Theme Child
+ Theme URI:    http://example.com/accelerate-theme-child/
+ Description:  Accelerate Child Theme - Accelerate
+ Author:       Karen Howell
+ Author URI:   http://bykarenhowell.com
+ Template:     accelerate-theme
+ Version:      1.0.0
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  accelerate-theme-child
+*/
+
+@import url("../accelerate-theme/style.css");
+
+.home-page {
+    background: url("img/taxi-photo.jpg") no-repeat scroll left center / cover rgba(0, 0, 0, 0);
+    height: 440px;
+    margin: 0 0 80px;
+    padding: 100px 0;
+}
+
+#masthead {
+    background: none repeat scroll 0 0 #45ac9d;
+}
+
+.button {
+    background: none repeat scroll 0 0 #45ac9d;
+}
+
+#masthead nav ul li {
+	float: left;
+	margin: 0 10px;
+}
+/* homepage blog post */
+.blog-post {
+	width: 44.75%;
+	padding-right: 50px;
+	float: left;
+}
+
+.blog-post h4 {
+	font-size: 16px;
+	font-family: 'Montserrat';
+	color: #a6a6a6;
+	text-transform: uppercase;
+}
+
+.blog-post h2 {
+	font-size: 24px;
+	font-family: 'Montserrat';
+	font-weight: bold;
+}
+
+.blog-post .read-more-link {
+	font: 700 15px 'Montserrat';
+	color: #45ac9d;
+	text-transform: uppercase;
+}
+
+/* case studies */
+
+aside.case-study-sidebar {
+	float: left;
+	width: 320px;
+	margin: 0 40px 0 0;
+}
+
+div.case-study-img {
+	float: left;
+	width: 600px;
+}
+
+div.case-study-img {
+	display: block;
+	margin-top: 30px;
+	margin-bottom: 50px;
+}
+
+/* featured-work-homepage */
+
+h4 {
+	text-align: center;
+}
+
+
+
+
