@@ -26,6 +26,11 @@
 .button {
     background: none repeat scroll 0 0 #45ac9d;
 }
+
+#masthead nav ul li {
+	float: left;
+	margin: 0 10px;
+}
 /* homepage blog post */
 .blog-post {
 	width: 44.75%;
@@ -51,3 +56,32 @@
 	color: #45ac9d;
 	text-transform: uppercase;
 }
+
+/* case studies */
+
+aside.case-study-sidebar {
+	float: left;
+	width: 320px;
+	margin: 0 40px 0 0;
+}
+
+div.case-study-img {
+	float: left;
+	width: 600px;
+}
+
+div.case-study-img {
+	display: block;
+	margin-top: 30px;
+	margin-bottom: 50px;
+}
+
+/* featured-work-homepage */
+
+h4 {
+	text-align: center;
+}
+
+
+
+
